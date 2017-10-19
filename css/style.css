@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-	background-color: red;
+	background-color: lightgrey;
 	color:black;
 	font-family: 'Roboto', monospace, sans-serif;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 1.5;
 }
 footer {
@@ -14,7 +14,7 @@ footer {
 	text-align: center;
 }
 h1, h2 {
-	color: white;
+	color: black;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h2 {
 
 #container {
 	margin: 10px auto;
-	width: 85%;
+	width: 95%;
 }
 
 .grey-block {
