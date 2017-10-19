@@ -9,16 +9,20 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
     <link href="css/style.css" rel="stylesheet">
     <script type="text/javascript">
-        function fullscreen() {
-    $('a').click(function() {
-        if(!$(this).hasClass('noeffect')) {
-            window.location = $(this).attr('href');
-            return false;
-        }
-    });
-}
- 
-fullscreen();
+$(document).ready(function() {
+
+    
+    function fullscreen() {
+        $('a').click(function() {
+            if(!$(this).hasClass('noeffect')) {
+                window.location = $(this).attr('href');
+                return false;
+            }
+        });
+    }
+    
+    fullscreen();
+});
     </script>
 
 </head>
@@ -54,4 +58,5 @@ fullscreen();
     </footer>
     <p><a href="#">Back to top</a></p>
 </body>
+<script src="js/script.js"></script>
 </html>
