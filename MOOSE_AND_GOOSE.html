@@ -5,25 +5,10 @@
     <title>LiveLine</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <link rel="apple-touch-icon" href="LiveLine.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
     <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript">
-$(document).ready(function() {
-
-    
-    function fullscreen() {
-        $('a').click(function() {
-            if(!$(this).hasClass('noeffect')) {
-                window.location = $(this).attr('href');
-                return false;
-            }
-        });
-    }
-    
-    fullscreen();
-});
-    </script>
+    <script src="js/libs/modernizr-2.5.3.min.js"></script>
 
 </head>
 <body>
@@ -57,7 +42,7 @@ $(document).ready(function() {
         &copy; 2017 | Dalton Pearson
     </footer>
     <p><a href="#">Back to top</a></p>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
