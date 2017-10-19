@@ -1,5 +1,9 @@
 /* Start CSS */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin:0;
+    padding:0;
+}
 
 body {
 	background-color: #d3d3d3;
@@ -7,10 +11,12 @@ body {
 	font-family: 'Roboto', monospace, sans-serif;
 	font-size: 24px;
 	line-height: 1.5;
+	text-align: center;
+
 }
 footer {
 	background-color: white;
-	padding: 30px;
+	margin: 20px 0px;
 	text-align: center;
 }
 h1, h2 {
@@ -25,24 +31,22 @@ h2 {
 	font-size: 50px;
 }
 
-header {background: white;}
+header {background: white;
+margin-bottom:20px;}
 
 /* ID and Classes */
 
 #container {
-	margin: 10px auto;
-	width: 95%;
+	
+	
 }
 
 .grey-block {
 	background-color: white;
-	margin: 1px;	
+	margin: 4px 0px;
+	padding: 20px 0px;	
 }
 
 .yellow-block {
 	background-color: #EEB902
-}
-
-.yellow-block, .grey-block {
-	padding: 30px;
 }
